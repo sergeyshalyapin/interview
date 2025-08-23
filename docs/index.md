@@ -1,3 +1,4 @@
+---
 # NOTE: frontmatter controls Hero layout on the home page
 layout: home
 hero:
@@ -24,3 +25,4 @@ features:
   - icon: 🚀
     title: Easy deploy
     details: One workflow publishes to GitHub Pages.
+---
