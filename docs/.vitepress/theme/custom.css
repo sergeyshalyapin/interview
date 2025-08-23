@@ -1,0 +1,28 @@
+/* Subtle “modern” look */
+:root {
+  /* tweak brand color */
+  --vp-c-brand-1: #0ea5e9; /* sky-500 */
+  --vp-c-brand-2: #0284c7; /* sky-600 */
+  --vp-c-brand-3: #0369a1; /* sky-700 */
+}
+
+
+/* rounded cards and gentle shadows */
+.VPDoc .content-container img {
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0,0,0,.08);
+}
+
+
+/* nicer tables */
+.table thead th { font-weight: 600; }
+
+
+/* callouts spacing */
+.custom-block { border-radius: 12px; }
+
+
+/* homepage hero tweaks */
+.VPHome .image {
+  filter: drop-shadow(0 10px 24px rgba(0,0,0,.15));
+}
