@@ -8,8 +8,7 @@ export default defineConfig({
 
 
   // IMPORTANT for GitHub Pages project sites: set base to '/REPO_NAME/'
-  // base: '/your-repo-name/',
-
+  base: '/interview/',
 
   // === Theme config ===
   themeConfig: {
