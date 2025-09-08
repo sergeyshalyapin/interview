@@ -23,4 +23,16 @@ export default defineConfig({
 ```
 
 
+<details>
+<summary> Click to reveal</summary>
+
+This is the hidden content.  
+You can include **Markdown**, code blocks, lists, images, etc.
+
+```ts
+console.log("This also works inside!");
+```
+</details>
+
+
 > For user/organization sites like `OWNER.github.io`, keep `base: '/'`.

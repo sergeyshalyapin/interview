@@ -2,27 +2,34 @@
 # NOTE: frontmatter controls Hero layout on the home page
 layout: home
 hero:
-  name: Pretty Docs
-  text: Beautiful, fast docs from plain Markdown
-  tagline: Minimal setup, gorgeous output. Deployed via GitHub Pages.
+  name: Preparation for
+  text: Senior Full-Stack Developer Interview
+
   image:
-    src: /logo.svg
+    src: /silhouette.png
     alt: Pretty Docs logo
   actions:
     - theme: brand
-      text: Get Started
-      link: /getting-started
+      text: Last Interview Questions
+      link: /lastAskedQuestions/fullList
     - theme: alt
-      text: Configuration
+      text: Frontend
       link: /configuration
+    - theme: alt
+      text: Full-Stack
+      link: /configuration
+    - theme: alt
+      text: DSA
+      link: /getting-started
 features:
   - icon: ⚡️
-    title: Instant dev server
+    title: Last Interview Questions
     details: Edit Markdown and see changes live with hot reload.
-  - icon: 🎨
-    title: Modern design
+    link: /lastAskedQuestions/fullList
+  - icon: ⚛️
+    title: Frontend 
     details: Clean typography, dark mode, and polished components.
-  - icon: 🚀
-    title: Easy deploy
+  - icon: 🔢
+    title: DSA
     details: One workflow publishes to GitHub Pages.
 ---

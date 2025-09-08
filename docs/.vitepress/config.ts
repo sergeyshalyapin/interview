@@ -1,39 +1,30 @@
 import { defineConfig } from 'vitepress'
 
-
 export default defineConfig({
   // === Site metadata ===
-  title: 'Pretty Docs',
-  description: 'Beautiful, fast docs from plain Markdown',
-
+  title: 'SFSD Interview',
+  description: 'Preparation for Senior Full-Stack Developer Interview',
 
   // IMPORTANT for GitHub Pages project sites: set base to '/REPO_NAME/'
   base: '/interview/',
 
   // === Theme config ===
   themeConfig: {
-    logo: '/logo.svg',
-
+    logo: '/silhouette.png',
 
     nav: [
-      { text: 'Getting Started', link: '/getting-started' },
-      { text: 'Configuration', link: '/configuration' },
-      { text: 'Guides', link: '/guides/authoring' }
+      { text: 'Last Asked Questions', link: '/lastAskedQuestions/fullList' },
+      { text: 'Glossary', link: '/glossary' },
+      { text: 'Tips', link: '/tips' },
     ],
-
 
     sidebar: [
       {
-        text: 'Introduction',
+        text: 'Last Asked Questions',
+        collapsed: false,
         items: [
-          { text: 'Welcome', link: '/' },
-          { text: 'Getting Started', link: '/getting-started' }
-        ]
-      },
-      {
-        text: 'Core',
-        items: [
-          { text: 'Configuration', link: '/configuration' }
+          { text: 'Full List', link: '/lastAskedQuestions/fullList' },
+          { text: '28/08/2025 - SFED', link: '/lastAskedQuestions/i-2025-08-28' },
         ]
       },
       {
@@ -42,14 +33,20 @@ export default defineConfig({
           { text: 'Authoring Markdown', link: '/guides/authoring' },
           { text: 'Theming & Branding', link: '/guides/theming' }
         ]
+      },
+      {
+        text: 'General',
+        items: [
+          { text: 'Glossary', link: '/glossary' },
+          { text: 'Tips', link: '/tips' },
+          { text: 'Configuration', link: '/configuration' },
+        ]
       }
     ],
 
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/sergeyshalyapin/interview' }
+      { icon: 'github', link: 'https://github.com/sergeyshalyapin' }
     ],
-
 
     // Edit link pattern for the "Edit this page" link
     editLink: {
