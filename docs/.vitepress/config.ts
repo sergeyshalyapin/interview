@@ -28,6 +28,22 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Frontend',
+        collapsed: false,
+        items: [
+          { text: 'React', link: '/lastAskedQuestions/fullList' },
+          { text: 'CSS', link: '/lastAskedQuestions/i-2025-08-28' },
+        ]
+      },
+      {
+        text: 'Backend',
+        collapsed: false,
+        items: [
+          { text: 'Node.js', link: '/backend/nodejs' },
+          { text: 'Client - Server', link: '/backend/clientServer' },
+        ]
+      },
+      {
         text: 'Guides',
         items: [
           { text: 'Authoring Markdown', link: '/guides/authoring' },
