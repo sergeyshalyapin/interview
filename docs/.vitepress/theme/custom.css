@@ -26,7 +26,6 @@
   box-shadow: 0 6px 24px rgba(0,0,0,.08);
 }
 
-
 .VPContent .VPHome {
   margin-bottom: 96px;
 }
@@ -46,35 +45,19 @@
 
 details {
   border-radius: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   padding: 12px;
 }
 
-details:not(:first-child) {
-  margin: 8px 0;
-}
-
-details[open].success {
+.success {
   border: 2px solid var(--question-border-success);
 }
 
-details:not([open]).success summary {
-  border: 2px solid var(--question-border-success);
-}
-
-details[open].neutral {
+.neutral {
   border: 2px solid var(--question-border-neutral);
 }
 
-details:not([open]).neutral summary {
-  border: 2px solid var(--question-border-neutral);
-}
-
-details[open].failed {
-  border: 2px solid var(--question-border-failed);
-}
-
-details:not([open]).failed summary {
+.failed {
   border: 2px solid var(--question-border-failed);
 }
 
@@ -86,8 +69,6 @@ details:not([open]).failed summary {
   cursor: pointer;
   border-radius: 8px;
 }
-
-
 
 .known {
   color: var(--known-color);
@@ -111,3 +92,12 @@ p.short-answer {
   padding: 4px 8px;
   border-radius: 8px;
 }
+
+.vp-doc div[class*='language-'] {
+  margin: 0;
+}
+
+.vp-doc [class*='language-'] code {
+  white-space: pre-wrap;
+}
+
