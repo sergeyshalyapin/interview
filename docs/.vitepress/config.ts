@@ -25,6 +25,7 @@ export default defineConfig({
         items: [
           { text: 'Full List', link: '/lastAskedQuestions/fullList' },
           { text: '28/08/2025 - SFED', link: '/lastAskedQuestions/i-2025-08-28' },
+          { text: '28/11/2025 - SFED', link: '/lastAskedQuestions/i-2025-11-28' },
         ]
       },
       {

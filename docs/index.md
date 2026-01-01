@@ -21,6 +21,12 @@ hero:
     - theme: alt
       text: DSA
       link: /getting-started
+    - theme: alt
+      text: Generative AI
+      link: /generative-ai
+    - theme: alt
+      text: Design
+      link: /guides/theming
 features:
   - icon: ⚡️
     title: Last Interview Questions

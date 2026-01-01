@@ -40,10 +40,7 @@ Node.js ---- progress: 50%
 
 <details class="success">
   <summary>
-    <span class="question">
-      0: How does Node.js handle I/O operations if it’s single-threaded? Explain the role of the event loop and libuv.
-    </span>
-
+    0: How does Node.js handle I/O operations if it’s single-threaded? Explain the role of the event loop and libuv.
   </summary>
 
   <p class="short-answer">
@@ -81,9 +78,7 @@ Node.js ---- progress: 50%
 
 <details class="success">
   <summary>
-    <span class="question">
-      0: What is the difference between process.nextTick(), setImmediate(), and setTimeout(fn, 0) in Node.js?
-    </span>
+    0: What is the difference between process.nextTick(), setImmediate(), and setTimeout(fn, 0) in Node.js?
   </summary>
 
   <p class="short-answer">
