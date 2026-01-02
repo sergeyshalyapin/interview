@@ -13,14 +13,14 @@ export default defineConfig({
     logo: '/silhouette.png',
 
     nav: [
-      { text: 'Last Asked Questions', link: '/lastAskedQuestions/fullList' },
+      { text: 'Interviews', link: '/lastAskedQuestions/fullList' },
       { text: 'Glossary', link: '/glossary' },
       { text: 'Tips', link: '/tips' },
     ],
 
     sidebar: [
       {
-        text: 'Last Asked Questions',
+        text: 'Interviews',
         collapsed: false,
         items: [
           { text: 'Full List', link: '/lastAskedQuestions/fullList' },
