@@ -32,8 +32,8 @@ export default defineConfig({
         text: 'Frontend',
         collapsed: false,
         items: [
-          { text: 'React', link: '/lastAskedQuestions/fullList' },
-          { text: 'CSS', link: '/lastAskedQuestions/i-2025-08-28' },
+          { text: 'React', link: '/interviews/fullList' },
+          { text: 'CSS', link: '/interviews/i-2025-08-28' },
         ]
       },
       {
