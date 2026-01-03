@@ -13,7 +13,7 @@ export default defineConfig({
     logo: '/silhouette.png',
 
     nav: [
-      { text: 'Interviews', link: '/lastAskedQuestions/fullList' },
+      { text: 'Interviews', link: '/interviews/fullList' },
       { text: 'Glossary', link: '/glossary' },
       { text: 'Tips', link: '/tips' },
     ],
@@ -23,9 +23,9 @@ export default defineConfig({
         text: 'Interviews',
         collapsed: false,
         items: [
-          { text: 'Full List', link: '/lastAskedQuestions/fullList' },
-          { text: '28/08/2025 - SFED', link: '/lastAskedQuestions/i-2025-08-28' },
-          { text: '28/11/2025 - SFED', link: '/lastAskedQuestions/i-2025-11-28' },
+          { text: 'Full List', link: '/interviews/fullList' },
+          { text: '28/08/2025 - SFED', link: '/interviews/i-2025-08-28' },
+          { text: '28/11/2025 - SFED', link: '/interviews/i-2025-11-28' },
         ]
       },
       {
